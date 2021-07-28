@@ -1,0 +1,25 @@
+h3 {
+    text-decoration-color: darkorange;
+}
+
+th {
+text-align: left;
+}
+
+table {
+    width: 500px;
+
+
+}
+table, th, td {
+    border: 1px solid gold;
+    border-collapse: collapse;
+}
+
+tr:nth-child(even) {
+    background-color: chocolate;
+}
+
+tr:nth-child(odd) {
+    background-color: darkgoldenrod;
+}
